@@ -1,7 +1,11 @@
 /** Hybrid file system in FUSE
  *
+ * Usage:  myfuse mount_point rootDir rootDir
+ * 
+ * Mount_point has to be an empty directory.
+ * This will show two root directories as one directory.
  *
- * by Youngkyun Kim
+ * By Youngkyun Kim
  */
 
 #define FUSE_USE_VERSION 30
