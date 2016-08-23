@@ -12,11 +12,11 @@ Just type "make" or use GCC compiler.
 
 # Usage 
 
-## mount
+**mount**
 
 ./hb_fuse [mount-point] [rootDir] [rootDir]
 
-## unmount 
+**unmount**
 
 sudo unmount [mount-point]
 
