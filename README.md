@@ -1,27 +1,29 @@
 # hybrid fuse
 
-This is just practice.
+This is just practice.  
 
-Mount root directories to one mount point
+Mount root directories to one mount point.  
 
+## Install
 
-# Install
+```bash
+git clone https://github.com/chancethecoder/hybrid_fuse
+cd hybrid_fuse
+make
+```
 
-Just type "make" or use GCC compiler.
+## Usage
 
+### mount
 
-# Usage 
-
-**mount**
-
+```bash
 ./hb_fuse [mount-point] [rootDir] [rootDir]
+```
 
-**unmount**
+### unmount
 
+```bash
 sudo unmount [mount-point]
+```
 
-* Mount point must be empty
-
-
-
-Created By Youngkyun Kim
+> Created By [Youngkyun Kim](https://github.com/chancethecoder)
